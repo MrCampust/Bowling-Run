@@ -1,0 +1,49 @@
+Mono path[0] = 'C:/Users/franc/Desktop/Bowling Run Test_Data/Managed'
+Mono path[1] = 'C:/Users/franc/Desktop/Bowling Run Test_Data/Mono'
+Mono config path = 'C:/Users/franc/Desktop/Bowling Run Test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/franc/Desktop/Bowling Run Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55387
+Multi-casting "[IP] 192.168.2.6 [Port] 55387 [Flags] 3 [Guid] 3507365921 [EditorId] 3543277719 [Version] 1048832 [Id] WindowsPlayer(MrCampust-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55387]...
+PlayerConnection accepted from [192.168.2.6] handle:0x2f4
+Started listening to [0.0.0.0:55387]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56921
+PlayerConnection already initialized - listening to [0.0.0.0:55387]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 200 Series (ID=0x6610)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   21.19.525.258
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.024 seconds
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\franc\Desktop\Bowling Run Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.973061 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2e50 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.434235 ms
+System memory in use before: 17.8 MB.
+System memory in use after: 17.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.239375 ms (FindLiveObjects: 0.038405 ms CreateObjectMapping: 0.018871 ms MarkObjects: 0.167860 ms  DeleteObjects: 0.012912 ms)
+
+Waiting for finish
