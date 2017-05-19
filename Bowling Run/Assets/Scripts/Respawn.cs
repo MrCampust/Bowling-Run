@@ -3,15 +3,11 @@ using System.Collections;
 
 public class Respawn : MonoBehaviour
 {
+    public float threshold;
 
-    // Use this for initialization
-    private void Start()
+    void FixedUpdate()  //Every FixedUpdate
     {
-        GameObject Player = GameObject.Find("Player");
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.position = Player.transform.position;
-        }
+        if (transform.position.y < threshold)  //If Player falls off level
+            transform.position = new Vector3(0, 0, 0);  //Teleports Player back to Spawn
     }
 }
